@@ -86,7 +86,7 @@ function new_item_insert($s, $item_title, $nb1, $nb2, $price, $area, $item_types
 //         }
 //         return $result;
 //     } else {
-//         return 'no images available';
+//         return 'no images available in the table';
 //     }
 // }
 
