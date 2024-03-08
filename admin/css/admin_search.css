@@ -1,0 +1,135 @@
+.list {
+    width: 100%;
+    /* min-height: 750px; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.list_item {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    background: #25392d;
+    color: #c8971f;
+    width: 100%;
+    gap: 10px;
+    font-size:16px;
+    border-radius: 10px;
+}
+
+.list_item_case_nb {}
+
+.list_item_image {
+    width: 100px;
+    height: 100px;
+}
+
+.in__case {
+    height: 30px;
+    width: max-content;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.list_item_link {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    /* background: #000000cf; */
+    color: #c8971f;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    gap: 5px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.list_item_title {
+    overflow: hidden;
+   
+    max-width: 200px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.list_item_regoin {}
+
+.list_item_type {}
+
+.list_item_category {}
+
+.list_item_price {}
+
+.back_icon {
+    height: 20px;
+    width: 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .list_item {
+        font-size: 13px;
+        gap: 5px;
+    }
+
+    .list_item_image {
+        width: 50px;
+        height: 50px;
+    }
+    
+
+.list_item_title {
+    overflow: hidden;
+    width:40px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+}
+@media only screen and (max-width: 750px) {
+    .list_item {
+        font-size: 7px;
+        gap: 5px;
+    }
+
+    .list_item_image {
+        width: 50px;
+        height: 50px;
+    }
+    .list_item_link {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    /* background: #000000cf; */
+    color: #c8971f;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.list_item_title {
+    overflow: hidden;
+    width:40px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+}

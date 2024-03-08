@@ -1,0 +1,144 @@
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #25392d;
+}
+
+footer .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+footer .container .sec h2 {
+    position: relative;
+    color: #c8971f;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer .container .sec p {
+    color: #b8b8b8;
+}
+
+footer .container .sci {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+}
+
+footer .container .sci li {
+    list-style: none;
+}
+
+footer .container .sci li a:hover {
+    color: #c8971f;
+    background: #000000;
+    scale: 1.1;
+}
+
+footer .container .sci li a {
+    /* display: inline-block; */
+    display: grid;
+    width: 36px;
+    height: 36px;
+    background: #00000080;
+    color: #fff;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+footer .container .sci li a svg {
+    /* color: #fff; */
+    font-size: 20px;
+}
+
+footer .container .quicklinks {
+    position: relative;
+}
+
+footer .container .quicklinks ul li {
+    list-style: none;
+}
+
+footer .container .quicklinks ul li a {
+    color: #b8b8b8;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+footer .container .quicklinks ul li a:hover {
+    color: #c8971f;
+    text-decoration: underline;
+
+}
+
+footer .container .contact .info {
+    position: relative;
+    list-style: none;
+}
+
+footer .container .contact .info li a {
+    color: #b8b8b8;
+    text-decoration: none;
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+footer .container .contact .info li a:hover {
+    color: #c8971f;
+    text-decoration: underline;
+}
+
+footer .container .contact .info li a span {
+    font-size: 20px;
+}
+
+.copyrightText {
+    width: 100%;
+    background: #13322c;
+    padding: 20px 100px 30px;
+    text-align: center;
+    color: #c8971f;
+    border: 1px solid #555555;
+}
+
+@media(max-width: 991px) {
+    footer {
+        padding: 40px;
+
+    }
+
+    footer .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .copyrightText {
+        padding: 20px 40px 30px;
+    }
+
+}
+
+@media(max-width: 768px) {
+
+
+    footer .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        grid-gap: 20px;
+    }
+
+}

@@ -1,0 +1,56 @@
+.article {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    overflow-y: scroll;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 40px;
+    z-index: 1;
+    flex-direction: column;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.user_box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .article {
+        margin-left: 0px;
+    }
+
+    .user_box {}
+
+}
+
+@media only screen and (max-width: 750px) {
+    .main_img_media {
+        height: 400px;
+        position: relative;
+        /* height: auto; */
+        width: 100%;
+        min-width: 100%;
+        /* width: 50px;*/
+    }
+
+    .article {
+        height: calc(100% - 60px);
+    }
+
+    .user_box {}
+}
